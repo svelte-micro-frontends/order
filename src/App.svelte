@@ -45,7 +45,7 @@
         </section>
         <section class="restaurant-section">
           <h1 class="sc-iwsKbI dJgGYT">{restaurant.name}</h1>
-          <figure class="sc-gqjmRU iXXjRT"><img src="https://content.demo.microfrontends.com/images/1-burger.jpg" alt="A photo of a burger with fries and a milkshake" class="sc-gZMcBi uxjla">
+          <figure class="sc-gqjmRU iXXjRT"><img src="https://content.demo.microfrontends.com{restaurant.imageSrc}" alt="A photo of a burger with fries and a milkshake" class="sc-gZMcBi uxjla">
             <figcaption class="sc-VigVT crfTJo">{restaurant.description}</figcaption>
           </figure>
         </section>
