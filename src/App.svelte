@@ -39,7 +39,9 @@
     ${cart.menu.map(m => {
       return `${m.item} x ${m.quantity} =  $${m.price * m.quantity}`;
     }).join('\n')}
-                                  Total =  $${total}
+    ----------------------------------------------------------------
+
+                                                 Total =  $${total}
     `;
     alert(bill);
   }
